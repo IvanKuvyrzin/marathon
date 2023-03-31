@@ -1,0 +1,40 @@
+﻿<Page x:Class="WpfApp4.pages.NewPrecendet"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp4.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NewPrecendet">
+
+    <Grid>
+        <StackPanel Margin="0,0,0,391" Background="gray">
+            <Button Content="Назад" Background="Goldenrod" FontSize="25" Width="100" Margin="-650,10,0,0" Foreground="White"/>
+            <Label Content="Marathon skills 2016" FontSize="35" Width="350" Margin="-160,-45,0,0" Foreground="White"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Регистрация бегуна" Margin="0,70,0,0" Width="240" FontSize="25"/>
+            <Label Content="пожалуйста заполните всю информацию, чтобы заргистрировать в качестве" FontSize="20" Width="720"/>
+            <Label Width="70" Content="бегуна" FontSize="20"/>
+        </StackPanel>
+        <StackPanel>
+
+            <TextBox Margin="125,200,388,0" FontSize="20" Text="Email" FontStyle="Italic" Foreground="Gray"/>
+            <TextBox Margin="125,10,443,0" FontSize="20" Text="Пароль" FontStyle="Italic" Foreground="Gray"/>
+            <TextBox Margin="125,10,443,0" FontSize="20" Text="Повторите пароль" FontStyle="Italic" Foreground="Gray"/>
+            <TextBox Margin="125,10,443,0" FontSize="20" Text="Имя" FontStyle="Italic" Foreground="Gray"/>
+            <TextBox Margin="125,10,443,0" FontSize="20" Text="Фамилия" FontStyle="Italic" Foreground="Gray"/>
+        </StackPanel>
+        <StackPanel>
+            <ComboBox Margin="559,200,105,100" FontSize="15" Width="Auto">
+                <ComboBoxItem Content="Мужской"/>
+                <ComboBoxItem Content="Женский"/>
+            </ComboBox>
+            <DatePicker Margin="559,-155,77,0" FontSize="15" Height="27"/>
+            <ComboBox Margin="559,-80,105,0" Height="24" FontSize="15">
+                
+             </ComboBox>
+        </StackPanel>
+    </Grid>
+</Page>
